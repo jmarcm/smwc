@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto|Montserrat+Alternates:200');
+
 /* font-family: 'Lato', sans-serif; */
 /* font-family: 'Open Sans Condensed', sans-serif; */
+/* font-family: 'Montserrat Alternates', sans-serif; */
+
+
+@import url('responsives.css');
 
 .btn-transparent.btn-default {
     background: rgba(255, 255, 255, 0.75);
@@ -46,6 +51,12 @@ body {
     vertical-align: middle;
 }
 
+#slogan {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 26px;
+    font-weight: 200;
+}
+
 #network {
     position: absolute;
     bottom: 10px;
@@ -72,4 +83,26 @@ div button {
 
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 20px !important;
+}
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    #slogan {
+        font-size: 30px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
