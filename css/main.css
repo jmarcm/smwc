@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto');
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Open Sans Condensed', sans-serif; */
+
+.btn-transparent.btn-default {
+    background: rgba(255, 255, 255, 0.75);
+    border: 0;
+    text-shadow: none;
+}
+
+
+html,
+body,
+#header {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.jumbotron {
+    height: 100%;
+    margin-bottom: 0;
+
+    background: url(../img/barque-3-1.jpg);
+    background-size: cover
+}
+
+.jumbotron > div {
+    height: 100%;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#network {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: #fff;
+}
+
+#network a {
+    color: #fff;
+}
+
+h1 {
+    line-height: 1.2em;
+}
+
+
+#slogan {
+    margin-top: 25px;
+    margin-bottom: 130px;
+}
+
+div button {
+    height: 100px;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px !important;
+}
